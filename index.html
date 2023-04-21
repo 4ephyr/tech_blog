@@ -1,32 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Technical Blog</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Blog</title>
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <u><h1 align="center">A simple tech blog that anyone can read.</h1></u><br><br>
-    <h3>How cloud computing will change the future.</h3>
-    <img width="250px" height="250px" src="https://s3-ap-south-1.amazonaws.com/ricedigitals3bucket/AUPortalContent/2021/08/12060931/Untitled-design-88.png" alt="Err">
-    <p>Cloud Computing will allow organizations to more easily take advantage of the best features and services of each provider. The growth of edge computing: With the continued expansion of the Internet of Things, there will be an increasing need for processing power at the edge of the network.</p>
-    <h3>The Advantages and Disadvantages of Cloud Computing</h3>
-    <img width="250px" height="250px" src="https://www.analyticsinsight.net/wp-content/uploads/2022/06/Cloud-Computing-Business-1024x576.jpg" alt="Err">
-    <h4>Some of the advantages of cloud computing include:</h4>
-    <ul>
-        <li>Scalability: cloud services can be easily scaled up or down depending on a user's needs, allowing for greater flexibility and cost savings.</li>
-        <li>Accessibility: cloud services can be accessed from anywhere with an internet connection, making it easier for users to work remotely or collaborate with others.</li>
-        <li>Cost-effectiveness: cloud computing can reduce the need for expensive hardware and infrastructure, as well as the need for in-house IT support.</li>
-        <li>Nothing more special about it.</li>
-    </ul>
-    <h4>However, there are also potential disadvantages to consider, such as:</h4>
-    <ul>
-        <li>Data security: storing data on remote servers can raise concerns about data privacy and security, especially if sensitive or confidential information is involved.</li>
-        <li>Reliance on third-party providers: users of cloud services must rely on the reliability and availability of their providers, which can be a potential point of vulnerability.</li>
-        <li>Performance issues: since cloud services rely on internet connectivity, performance can be affected by issues such as network congestion and latency.</li>
-        <li>That's all</li>
-    </ul>
-    <p><strong>For more info Contact :</strong>email@example.com</p>
+
+<body class="bg-gray-200">
+  <div class="container mx-auto px-4 py-8">
+    <h1 class="text-center font-bold text-3xl mb-8 text-purple-700">A simple tech blog that anyone can read.</h1>
+    <div class="mb-10">
+      <h3 class="text-2xl font-bold text-purple-700 mb-4">How cloud computing will change the future.</h3>
+      <img width="250px" height="250px" class="w-full rounded-md mb-4" src="https://s3-ap-south-1.amazonaws.com/ricedigitals3bucket/AUPortalContent/2021/08/12060931/Untitled-design-88.png" alt="Err">
+      <p class="text-gray-800">Cloud Computing will allow organizations to more easily take advantage of the best features and services of each provider. The growth of edge computing: With the continued expansion of the Internet of Things, there will be an increasing need for processing power at the edge of the network.</p>
+    </div>
+        <div class="mb-10">
+        <h3 class="text-2xl font-bold text-purple-700 mb-4">The Advantages and Disadvantages of Cloud Computing</h3>
+        <img width="250px" height="250px" class="w-full rounded-md mb-4" src="https://www.analyticsinsight.net/wp-content/uploads/2022/06/Cloud-Computing-Business-1024x576.jpg" alt="Err">
+        <h4 class="text-purple-700 font-bold mb-2">Some of the advantages of cloud computing include:</h4>
+        <ul class="list-disc list-inside mb-4">
+            <li class="text-gray-800">Scalability: cloud services can be easily scaled up or down depending on a user's needs, allowing for greater flexibility and cost savings.</li>
+            <li class="text-gray-800">Accessibility: cloud services can be accessed from anywhere with an internet connection, making it easier for users to work remotely or collaborate with others.</li>
+            <li class="text-gray-800">Cost-effectiveness: cloud computing can reduce the need for expensive hardware and infrastructure, as well as the need for in-house IT support.</li>
+            <li class="text-gray-800">Nothing more special about it.</li>
+        </ul>
+        <h4 class="text-purple-700 font-bold mb-2">However, there are also potential disadvantages to consider, such as:</h4>
+        <ul class="list-disc list-inside mb-4">
+            <li class="text-gray-800">Data security: storing data on remote servers can raise concerns about data privacy and security, especially if sensitive or confidential information is involved.</li>
+            <li class="text-gray-800">Reliance on third-party providers: users of cloud services must rely on the reliability and availability</li>
+        </ul>
+        </div>
+    </div>
 </body>
 </html>
